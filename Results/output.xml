@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-06-04T16:18:40.895599" rpa="false" schemaversion="5">
+<suite id="s1" name="Demo" source="C:\Users\HarunAktas\pythonProjekte\robot_level3\tests\demo.robot">
+<test id="s1-t1" name="Should be able to access &quot;Team&quot; page" line="23">
+<kw name="Begin Web Test" type="SETUP">
+<msg time="2024-06-04T16:18:41.086483" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2024-06-04T16:18:41.086483" elapsed="0.000000">No keyword with name 'Begin Web Test' found.</status>
+</kw>
+<kw name="End Web Test" type="TEARDOWN">
+<msg time="2024-06-04T16:18:41.088484" level="FAIL">No keyword with name 'End Web Test' found.</msg>
+<status status="FAIL" start="2024-06-04T16:18:41.088484" elapsed="0.000000">No keyword with name 'End Web Test' found.</status>
+</kw>
+<doc>This is some basic info about the test</doc>
+<tag>101</tag>
+<tag>Smoke</tag>
+<tag>Teampage</tag>
+<status status="FAIL" start="2024-06-04T16:18:41.083972" elapsed="0.004512">Setup failed:
+No keyword with name 'Begin Web Test' found.
+
+Also teardown failed:
+No keyword with name 'End Web Test' found.</status>
+</test>
+<test id="s1-t2" name="&quot;Team&quot; page should match (correct header text)" line="33">
+<kw name="Begin Web Test" type="SETUP">
+<msg time="2024-06-04T16:18:41.091485" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="FAIL" start="2024-06-04T16:18:41.091485" elapsed="0.000000">No keyword with name 'Begin Web Test' found.</status>
+</kw>
+<kw name="End Web Test" type="TEARDOWN">
+<msg time="2024-06-04T16:18:41.093484" level="FAIL">No keyword with name 'End Web Test' found.</msg>
+<status status="FAIL" start="2024-06-04T16:18:41.093484" elapsed="0.000000">No keyword with name 'End Web Test' found.</status>
+</kw>
+<doc>This is some basic info about the test</doc>
+<tag>102</tag>
+<tag>Smoke</tag>
+<tag>Teampage Verify</tag>
+<status status="FAIL" start="2024-06-04T16:18:41.089483" elapsed="0.004001">Setup failed:
+No keyword with name 'Begin Web Test' found.
+
+Also teardown failed:
+No keyword with name 'End Web Test' found.</status>
+</test>
+<doc>This is some bsic info about the whole suite</doc>
+<status status="FAIL" start="2024-06-04T16:18:40.897609" elapsed="0.197876"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">101</stat>
+<stat pass="0" fail="1" skip="0">102</stat>
+<stat pass="0" fail="2" skip="0">Smoke</stat>
+<stat pass="0" fail="1" skip="0">Teampage</stat>
+<stat pass="0" fail="1" skip="0">Teampage Verify</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-04T16:18:41.081975" level="ERROR">Error in file 'C:\Users\HarunAktas\pythonProjekte\robot_level3\tests\demo.robot' on line 4: Resource file 'Resources\Common.robot' does not exist.</msg>
+<msg time="2024-06-04T16:18:41.082973" level="ERROR">Error in file 'C:\Users\HarunAktas\pythonProjekte\robot_level3\tests\demo.robot' on line 5: Resource file 'Resources\RobotWebApp.robot' does not exist.</msg>
+</errors>
+</robot>
