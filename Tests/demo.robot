@@ -41,6 +41,9 @@ Should be able to access "Team" page
     #TEAMPAGE OPEN
     RobotWebApp.Teampage open
     RobotWebApp.Teampage Verifying
+
+Feature 1 Test
+    Log    from feature 1
     
     #LOGIN
 
